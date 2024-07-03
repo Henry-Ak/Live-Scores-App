@@ -1,6 +1,0 @@
-[server]
-headless = true
-enableCORS = false
-port = $PORT
-fileWatcherType = "none"
-main = "sports_app.py"
