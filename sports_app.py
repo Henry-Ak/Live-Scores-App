@@ -78,14 +78,14 @@ def main():
     for _, row in filtered_df.iterrows():
         col1, col2, col3 = st.columns([2, 1, 2])  # Adjusting column widths
         with col1:
-            st.image(row['strhometeambadge'], width=150)  # Larger badge width
+            st.image(row['strhometeambadge'], width=150)
             st.header(row['strhometeam'])
         with col2:
-            st.markdown("<h1 style='text-align:center;margin-top:60px;'>vs</h1>", unsafe_allow_html=True)  # Larger 'vs' label
-            st.markdown(f"**Date:** {row['dateevent'].strftime('%Y-%m-%d')}")  # Bold text for date
-            st.markdown(f"**Time:** {row['streventtime'].strftime('%H:%M:%S') if pd.notna(row['streventtime']) else 'Unknown'}")  # Bold text for time
+            st.markdown("<h1 style='text-align:center;margin-top:60px;'>vs</h1>", unsafe_allow_html=True)
+            st.markdown(f"**Date:** {row['dateevent'].strftime('%Y-%m-%d')}")
+            st.markdown(f"**Time:** {row['streventtime'].strftime('%H:%M:%S') if pd.notna(row['streventtime']) else 'Unknown'}")
         with col3:
-            st.image(row['strawayteambadge'], width=150)  # Larger badge width
+            st.image(row['strawayteambadge'], width=150)
             st.header(row['strawayteam'])
     
 if __name__ == "__main__":
