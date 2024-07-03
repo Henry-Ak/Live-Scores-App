@@ -1,0 +1,7 @@
+[server]
+headless = true
+enableCORS = false
+port = $PORT
+fileWatcherType = "none"
+# Update the main module path if needed
+main = "sports_app.py"

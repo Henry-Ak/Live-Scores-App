@@ -1,20 +1,11 @@
-# 📊 Data evaluation template
+# Live Sports Scores Dashboard
 
-A simple Streamlit app showing how to evaluate and annotate data, using dataframes
-and charts. 
+A Streamlit application to display live scores for various sports. The app provides a visual overview of ongoing matches, with detailed information on teams, scores, and match progress.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-evaluation-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- Display live scores for multiple sports.
+- Filter matches by sport, date range, and time range.
+- Search functionality to find specific teams or events.
+- Visual score comparison using bar charts.
+- Detailed match overview with team badges, names, and match information.
